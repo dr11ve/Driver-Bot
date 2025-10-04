@@ -1,0 +1,25 @@
+{
+  "name": "recall-trading-agent",
+  "version": "0.1.0",
+  "description": "A simple crypto‑trading agent for the Recall Network",
+  "main": "dist/agent.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/agent.ts",
+    "start": "node dist/agent.js"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@recallnet/sdk": "^1.2.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
