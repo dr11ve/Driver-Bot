@@ -1,0 +1,11 @@
+name: recall-trading-agent
+version: "0.1.0"
+description: Simple crypto‑trading agent for the Recall Network
+entrypoint: npm run start
+resources:
+  cpu: "0.5"
+  memory: "256Mi"
+secrets:
+  - RECALL_API_KEY
+  - RECALL_AGENT_ID
+  - PRIVATE_KEY
